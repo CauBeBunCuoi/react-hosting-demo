@@ -57,7 +57,7 @@ return invoice.id==show[index].id;
 return (
     <tr key={invoice.id}>
     
-    <td> <img width="60" src={'/themes/images/products/'+ invoice.id+'.png'} alt=""/></td>
+    <td> <img width="60" src={process.env.PUBLIC_URL +'/themes/images/products/'+ invoice.id+'.png'} alt=""/></td>
     <td>
     <Link to={'/invoice/'+invoice.id+'/'+invoice.total}>
     <a href="" >{invoice.name}</a>
