@@ -36,7 +36,7 @@ return invoice.id==id;
                         <tr className="techSpecRow"><td className="techSpecTD1">Invoice Name: </td><td className="techSpecTD2">{detail.name}</td></tr>
                         <tr className="techSpecRow"><td className="techSpecTD1">Payment:</td><td className="techSpecTD2"> {detail.payment}</td></tr>
                         <tr className="techSpecRow"><td className="techSpecTD1">Customer Infomation: </td><td className="techSpecTD2"> {'-Id'+detail.customer.id} <br /> {'-Name'+detail.customer.name}</td></tr>
-                        <tr className="techSpecRow"><td className="techSpecTD1">Product Image:</td><td className="techSpecTD2"><img src={'themes/images/products/'+ detail.id+'.png'} alt="" /></td></tr>
+                        <tr className="techSpecRow"><td className="techSpecTD1">Product Image:</td><td className="techSpecTD2"><img src={'theme/images/products/'+ detail.id+'.png'} alt="" /></td></tr>
                         <tr className="techSpecRow"><td className="techSpecTD1">Total Price:</td><td className="techSpecTD2">{"$"+index.total}</td></tr>
 
                     </tbody>
